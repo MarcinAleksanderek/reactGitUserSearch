@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+
+body {
+	font-family: 'Open Sans Condensed', sans-serif;
+	background:	#44D6F5;
+	color: #ffffff;
+}
+
+.container {
+	width: 30%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.label {
+	margin: 0 25px;
+}
+
+.input {
+	border: none;
+	padding: 12px 20px;
+}
+
+input:focus, input:active  { 
+	background-color: yellow;
+	border: none;
+	padding: 12px 20px;
+	background: #ffffff;
+  }
+
+.input-wrapper {
+	display: inline-block;
+	border-radius: 60px;
+	padding: 16px;
+	background: #ffffff;
+}
+
+.users {
+	display: flex;
+	flex-direction: column;
+}
+
+.user {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: space-between;
+	margin-bottom: 15px;
+}
+
+.user img {
+	max-width: 18%;
+	margin-right: 25px;
+}
+
+
